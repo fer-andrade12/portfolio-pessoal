@@ -1,0 +1,44 @@
+#home{
+    background:#9ecc11;
+    color: white;
+    padding-bottom:5%;
+    padding-top:5%;
+}
+
+footer a {
+	margin: 5px 15px;
+}
+
+.transition:hover {
+  box-shadow: 10px 10px 5px #008000;
+  width:105%;
+  height:105%;
+}
+.form{
+	background-color:#c0c0c0;
+	padding:10px;
+	 border: 2px solid #008040;
+  	border-radius: 10px;
+}
+.card{
+	margin: 8px;
+}
+
+.sobre{
+	padding:8px;
+}
+  
+img {
+  position: relative;
+  animation-name: transicao;
+  animation-duration: 4s;
+}
+
+@keyframes transicao {
+  0%   { left:0px; top:0px;}
+  25%  { left:50px; top:0px;}
+  50%  { left:50px; top:50px;}
+  75%  { left:0px; top:50px;}
+  100% { left:0px; top:0px;}
+}
+
